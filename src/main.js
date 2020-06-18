@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+// 创建一个$bus
+Vue.prototype.$bus = new Vue()
 
 new Vue({
   router,
